@@ -8,7 +8,7 @@
     <meta name="author" content="">
     <link rel="icon" href="/docs/4.0/assets/img/favicons/favicon.ico">
 
-    
+
 
     <link rel="canonical" href="https://getbootstrap.com/docs/4.0/examples/pricing/">
 
@@ -22,7 +22,7 @@
     <div class="d-flex flex-column flex-md-row align-items-center p-3 px-md-4 mb-3 bg-white border-bottom box-shadow">
       <h5 class="my-0 mr-md-auto font-weight-normal"><img src="index2.png" style="width: 30px; position: absolute;"> <span style="position: relative; left: 35px;">Index</span></h5>
       <nav class="my-2 my-md-0 mr-md-3">
-        <a class="p-2 text-dark" href="#">Registrar</a>
+        <a class="p-2 text-dark" href="listar.php">Listar</a>
         <a class="p-2 text-dark" href="#">Actualizar</a>
         <a class="p-2 text-dark" href="#">Eliminar</a>
       </nav>
@@ -41,7 +41,7 @@
               <div class="col-sm-4 col-4">
                 <div class="form-group">
                   <label>Nro Documento</label>
-                  <input type="tex" name="doc" maxlength="8" class="form-control">
+                  <input type="text" name="doc" maxlength="8" class="form-control">
                 </div>
               </div>
               <div class="col-sm-4 col-4">
@@ -53,7 +53,7 @@
               <div class="col-sm-4 col-4">
                 <div class="form-group">
                   <label>Apellidos</label>
-                  <input type="tex" name="ape" class="form-control">
+                  <input type="text" name="ape" class="form-control">
                 </div>
               </div>
             </div>
@@ -61,13 +61,13 @@
               <div class="col-sm-4 col-4">
                 <div class="form-group">
                   <label>Direccion</label>
-                  <input type="tex" name="dir" class="form-control">
+                  <input type="text" name="dir" class="form-control">
                 </div>
               </div>
               <div class="col-sm-4 col-4">
                 <div class="form-group">
                   <label>Celular</label>
-                  <input type="tex" name="cel" class="form-control">
+                  <input type="text" name="cel" class="form-control">
                 </div>
               </div>
             </div>
